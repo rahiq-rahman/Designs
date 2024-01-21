@@ -25,17 +25,17 @@ body{
 .card-container:hover{
     box-shadow: 0px 0px 10px whitesmoke;
 }
-.card-container:hover img{
-    scale: 1.05;
+.img-container{
+    height: 155px;
+    overflow: hidden;
 }
 .card-container img{
     width: 100%;
     object-fit: cover;
     transition: all .4s ease-in-out;
 }
-.img-container{
-    height: 155px;
-    overflow: hidden;
+.card-container:hover img{
+    scale: 1.05;
 }
 .card-container h6{
     padding: 8px;
@@ -60,12 +60,6 @@ body{
     height: 57px;
     color: rgb(12, 12, 12);
 }
-.card-container a:hover{
-    color: rgb(26, 76, 105);
-    background: rgb(222, 222, 222);
-    transition: all .4s ease-in-out;
-    border: 1px solid rgb(26, 76, 105)
-}
 .card-container a{
     border: 1px solid rgb(222, 222, 222);
     text-decoration: none;
@@ -74,6 +68,12 @@ body{
     background: rgb(26, 76, 105);
     margin: 5px 8px;
     border-radius: 2px;
+}
+.card-container a:hover{
+    color: rgb(26, 76, 105);
+    background: rgb(222, 222, 222);
+    transition: all .4s ease-in-out;
+    border: 1px solid rgb(26, 76, 105)
 }
 .read-more{
     display: flex;
